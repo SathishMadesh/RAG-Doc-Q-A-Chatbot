@@ -1,8 +1,8 @@
 import os
 import streamlit as st
 from langchain_groq import ChatGroq
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
-from langchain_core.output_parsers import StrOutputParser
+# from langchain_google_genai import GoogleGenerativeAIEmbeddings
+# from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_community.embeddings import OllamaEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
